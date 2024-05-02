@@ -10,3 +10,8 @@ variable "github_org" {
 variable "github_repository" {
   type = string
 }
+
+variable "tele_token" {
+  type      = string
+  sensitive = true
+}
